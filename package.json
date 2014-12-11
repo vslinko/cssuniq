@@ -5,8 +5,8 @@
     "test": "jest -i"
   },
   "dependencies": {
-    "xxhashjs": "~0.0",
-    "css": "~2.1"
+    "css": "~2.1",
+    "crc-32": "~0.2"
   },
   "devDependencies": {
     "jest-cli": "~0.2"
