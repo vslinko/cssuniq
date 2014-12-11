@@ -50,6 +50,5 @@ var Button = React.createClass({
 
 ## TODO
 
-* [ ] Transforming function
 * [ ] JS API
 * [ ] Webpack loader
