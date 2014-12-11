@@ -7,7 +7,9 @@
 ```jsx
 var cssuniq = require('cssuniq');
 
-var classes = cssuniq('.button {} .button-big {} .button-icon {}');
+var classes = cssuniq('.button {} .button-big {} .button-icon {} .button-icon .icon {}', {
+  except: ['icon'] // or only: /^button/
+});
 
 classes.getStyle(); // ".UNIQUEHASH-button {} .UNIQUEHASH-button-icon {}"
 classes.inject(); // Injects <style> tag with transformed style onto page
